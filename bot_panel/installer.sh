@@ -77,7 +77,7 @@ EOF
         echo -e "Info...\n"
         fun_bot1() {
             [[ ! -e "/etc/.maAsiss/.Shellbtsss" ]] && {
-				wget -qO- https://raw.githubusercontent.com/anzvps/BOT/main/bot_panel/ShellBot.sh >/etc/.maAsiss/.Shellbtsss
+				wget -qO- https://raw.githubusercontent.com/apih46/BOT/main/bot_panel/ShellBot.sh >/etc/.maAsiss/.Shellbtsss
 			}
 			[[ "$(grep -wc "scvpn_bot" "/etc/rc.local")" = '0' ]] && {
 			    sed -i '$ i\screen -dmS scvpn_bot bbt' /etc/rc.local >/dev/null 2>&1
